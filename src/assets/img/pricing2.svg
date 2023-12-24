@@ -1,4 +1,7 @@
-<svg preserveAspectRatio="xMidYMid meet" data-bbox="20.808 16.932 158.385 166.139" viewBox="20.808 16.932 158.385 166.139" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true">
+<svg preserveAspectRatio="xMidYMid meet" data-bbox="20.808 16.932 158.385 166.139" viewBox="20.808 16.932 158.385 166.139" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true"><defs><style>#comp-kylh7gx6 svg [data-color="1"] {fill: #004AAD;}
+#comp-kylh7gx6 svg [data-color="2"] {fill: #FE393C;}
+#comp-kylh7gx6 svg [data-color="3"] {fill: #0ACB8B;}
+#comp-kylh7gx6 svg [data-color="4"] {fill: #FFB64F;}</style></defs>
     <g>
         <path d="M38.109 111.993c-.352.417-.571.828-.702.801-.322-.066-.604-.332-.902-.517.151-.236.292-.66.456-.669.316-.018.646.199 1.148.385z" fill="#004aad" data-color="1"></path>
         <path d="M33.741 118.479c-.462.392-.749.825-1.014.811-.28-.015-.747-.451-.75-.707-.004-.291.381-.773.663-.826.254-.049.596.369 1.101.722z" fill="#004aad" data-color="1"></path>

@@ -22,13 +22,13 @@
 						<a class="nav-link" aria-current="page" href="/#product">Product</a>
 					</li>
 					<li class="nav-item">
-						<router-link class="nav-link" to="/">Prijs</router-link>
+						<router-link class="nav-link" to="/Prijs">Prijs</router-link>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" aria-current="page" href="/#contact">Contact</a>
 					</li>
 					<li class="nav-item">
-						<router-link class="nav-link" to="/">Online boeken</router-link>
+						<router-link class="nav-link" to="/BookOnline">Online boeken</router-link>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" aria-current="page" href="#"> <img class="me-2" src="../assets/img/user_icon.svg" width="26" /> Log In </a>

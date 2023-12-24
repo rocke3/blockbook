@@ -6,8 +6,8 @@
 			<a class="navbar-brand d-flex" href="#">
 				<img src="../assets/img/logo.svg" alt="blockbook" width="42" />
 				<div class="ms-2">
-					<div>BlockBook</div>
-					<div>betere educatie door innovatie</div>
+					<div class="title">BlockBook</div>
+					<div class="sub">betere educatie door innovatie</div>
 				</div>
 			</a>
 			<div class="mt-4 ps-5">
@@ -70,6 +70,16 @@ footer {
 		margin-bottom: 30px;
 		font-weight: 600 !important;
 	}
+	.navbar-brand {
+		.title {
+			font-weight: 600;
+			font-size: 22px;
+			line-height: 1.2;
+		}
+		.sub {
+			font-size: 14px;
+		}
+	}
 	.form-control {
 		background: transparent;
 		border: 2px solid #004aad;
@@ -90,6 +100,7 @@ footer {
 		}
 	}
 	.social {
+		padding-left: 100px;
 		a {
 			text-decoration: none;
 			font-weight: 600;
