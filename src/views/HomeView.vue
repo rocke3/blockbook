@@ -2,7 +2,7 @@
 import { onMounted } from "vue";
 import AOS from "aos";
 onMounted(() => {
-	AOS.init({ duration: 800 });
+	AOS.init({ duration: 1000 });
 });
 </script>
 
