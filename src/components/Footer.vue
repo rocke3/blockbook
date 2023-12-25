@@ -12,7 +12,7 @@
 			</a>
 			<div class="mt-4 ps-5">
 				<div class="row">
-					<div class="col-5">
+					<div class="col-sm-8 col-xl-5">
 						<h5>Contact</h5>
 						<div class="row">
 							<div class="col">
@@ -25,7 +25,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-2">
+					<div class="col-sm-4 col-xl-2">
 						<h5>Quick Links</h5>
 						<p>
 							<a href="https://jeroenvangessel.wixsite.com/blockbook-1/terms-conditions">Terms & Conditions</a>
@@ -34,7 +34,7 @@
 							<a href="https://jeroenvangessel.wixsite.com/blockbook-1/privacy-policy">Privacy Policy</a>
 						</p>
 					</div>
-					<div class="col-3">
+					<div class="col-sm-8 col-xl-3">
 						<h5>Follow</h5>
 						<p>Sign up to get the latest news on our product.</p>
 						<label>Email *</label>
@@ -45,7 +45,7 @@
 							</div>
 						</form>
 					</div>
-					<div class="col-2 social">
+					<div class="col-sm-4 col-xl-2 social">
 						<h5><a href="">LinkedIn</a></h5>
 						<h5><a href="">YouTube</a></h5>
 						<h5><a href="">Facebook</a></h5>

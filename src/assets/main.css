@@ -3,6 +3,7 @@ body {
 	font-family: "Mulish", sans-serif;
 	color: #164dac;
 	font-size: 16px;
+	overflow-x: hidden;
 }
 
 h1,

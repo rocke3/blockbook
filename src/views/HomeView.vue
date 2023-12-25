@@ -1,7 +1,6 @@
 <script setup>
 import { onMounted } from "vue";
 import AOS from "aos";
-
 onMounted(() => {
 	AOS.init({ duration: 800 });
 });
@@ -12,24 +11,37 @@ onMounted(() => {
 		<section class="banner">
 			<div class="container">
 				<div class="row">
-					<div class="col-6" data-aos="fade-right">
+					<div class="col-lg-6 imgDiv order-lg-2" data-aos="fade-left">
+						<div class="bannerImg text-center text-lg-end">
+							<img src="../assets/img/bg1.svg" />
+						</div>
+					</div>
+
+					<div class="col-lg-6 order-lg-1" data-aos="fade-right">
 						<div class="pb-2">
 							<h1 class="mb-4">Upload.<br />Genereer. Bespaar.</h1>
 							<p class="sub">Bespaar tijd met een AI tool gebouwd <br />voor docenten.</p>
 							<a class="btn btn-primary" href="">Plan enn Demo</a>
 						</div>
-						<div class="d-flex minusLeft">
-							<img src="../assets/img/Nakijken.svg" width="55" class="me-2" />
-							<p>Nakijken &<br />Feedback geven</p>
-							<img src="../assets/img/Casussen.svg" width="55" class="me-2 ms-3" />
-							<p>Casussen <br />ontwikkelen</p>
-							<img src="../assets/img/Oefentoetsen.svg" width="55" class="me-2 ms-3" />
-							<p>Oefentoetsen en <br />tentamenvragen</p>
-						</div>
-					</div>
-					<div class="col-6 imgDiv" data-aos="fade-left">
-						<div class="bannerImg">
-							<img src="../assets/img/bg1.svg" />
+						<div class="row minusLeft">
+							<div class="col">
+								<div class="d-flex">
+									<img src="../assets/img/Nakijken.svg" width="55" class="me-2" />
+									<p>Nakijken &<br />Feedback geven</p>
+								</div>
+							</div>
+							<div class="col">
+								<div class="d-flex">
+									<img src="../assets/img/Casussen.svg" width="55" class="me-2" />
+									<p>Casussen <br />ontwikkelen</p>
+								</div>
+							</div>
+							<div class="col">
+								<div class="d-flex">
+									<img src="../assets/img/Oefentoetsen.svg" width="55" class="me-2" />
+									<p>Oefentoetsen en <br />tentamenvragen</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -40,10 +52,10 @@ onMounted(() => {
 			<div class="divider"></div>
 			<div class="container">
 				<div class="row">
-					<div class="col-6" data-aos="fade-right">
+					<div class="col-md-6" data-aos="fade-right">
 						<h2>Wij geloven in technologie & innovatie voor het onderwijs!</h2>
 					</div>
-					<div class="col-6" data-aos="fade-left">
+					<div class="col-md-6" data-aos="fade-left">
 						<p>Nieuwe technologieën hebben een steeds grotere impact op het onderwijs. Wij zijn er om de nieuwe technologieën toegankelijk te maken voor docenten en studenten. Daarmee geloven wij in beter onderwijs.</p>
 					</div>
 				</div>
@@ -57,29 +69,29 @@ onMounted(() => {
 					<p>Wij zetten AI in om een docent te ondersteunen bij het ontwikkelen van oefenvragen, casussen, nakijken, feedback geven en het bijhouden van resultaten van studenten.</p>
 					<button class="btn btn-outline-primary">Plan enn Demo</button>
 				</div>
-				<div class="row">
-					<div class="col-3">
+				<div class="row text-center text-md-start">
+					<div class="col-md-6 col-lg-3">
 						<div class="watItem" data-aos="fade-up">
 							<img src="../assets/img/Wat1.webp" />
 							<h3>Upload <br />lesmateriaal</h3>
 							<p>Upload het lesmateriaal voor jouw vak en maak hiermee een leeromgeving. Je kan PowerPoints, PDFs, beoordelingsformulieren, oude toetsen en andere tekstbestanden uploaden om de leeromgeving van jouw vak te maken.</p>
 						</div>
 					</div>
-					<div class="col-3">
+					<div class="col-md-6 col-lg-3">
 						<div class="watItem" data-aos="fade-up">
 							<img src="../assets/img/Wat2.webp" />
 							<h3>Geautomatiseerde <br />digitale leeromgeving</h3>
 							<p>Na het uploaden van het leermateriaal maken wij in 10 min een digitale leeromgeving. Pas hierin aan wat aangepast moet worden en publiceer de digitale leeromgeving met oefenmateriaal naar studenten.</p>
 						</div>
 					</div>
-					<div class="col-3">
+					<div class="col-md-6 col-lg-3">
 						<div class="watItem" data-aos="fade-up">
 							<img src="../assets/img/Wat3.webp" />
 							<h3>Maak sneller content <br />voor student</h3>
 							<p>Genereer geautomatiseerd oefencontent voor studenten. Studenten kunnen oefentoetsen vinden die passen bij hun leerdoelen en gepersonaliseerd op hun leerproces.</p>
 						</div>
 					</div>
-					<div class="col-3">
+					<div class="col-md-6 col-lg-3">
 						<div class="watItem" data-aos="fade-up">
 							<img src="../assets/img/Wat4.webp" />
 							<h3>Geef feedback in <br />een handomdraai</h3>
@@ -87,15 +99,15 @@ onMounted(() => {
 						</div>
 					</div>
 				</div>
-				<div class="text-center mb-5" data-aos="zoom-in">
+				<div class="text-center mb-5 mt-4" data-aos="zoom-in">
 					<button class="btn btn-outline-primary exLong">Leer meer over ons product</button>
 				</div>
 
 				<div class="row voorHet">
-					<div class="col-6" data-aos="fade-up">
+					<div class="col-lg-6" data-aos="fade-up">
 						<img class="leftImg" src="../assets/img/bg2.png" />
 					</div>
-					<div class="col-6">
+					<div class="col-lg-6">
 						<div class="rightContent" data-aos="fade-up">
 							<h2>Voor het onderwijs, <br />door studenten</h2>
 							<p>Blockbook is ontstaan omdat twee studenten geloven dat nieuwe technologieën meer gebruikt moeten worden in het onderwijs. Met Blockbook worden nieuwe technologieën toegankelijk gemaakt in het onderwijs.</p>
@@ -121,28 +133,28 @@ onMounted(() => {
 					<p>Deze partners helpen ons op onze missie om technologie toegankelijk te maken in het onderwijs. Geloof jij ook in de kracht van technologie en help jij ons ook?</p>
 				</div>
 				<div class="row text-center">
-					<div class="col-3" data-aos="fade-up">
+					<div class="col-6 col-md-3" data-aos="fade-up">
 						<img src="../assets/img/Wij1.webp" />
 					</div>
-					<div class="col-3" data-aos="fade-up">
+					<div class="col-6 col-md-3" data-aos="fade-up">
 						<img src="../assets/img/Wij2.webp" />
 					</div>
-					<div class="col-3" data-aos="fade-up">
+					<div class="col-6 col-md-3" data-aos="fade-up">
 						<img src="../assets/img/Wij3.webp" />
 					</div>
-					<div class="col-3" data-aos="fade-up">
+					<div class="col-6 col-md-3" data-aos="fade-up">
 						<img src="../assets/img/Wij4.webp" />
 					</div>
-					<div class="col-3" data-aos="fade-up">
+					<div class="col-6 col-md-3" data-aos="fade-up">
 						<img src="../assets/img/Wij5.webp" />
 					</div>
-					<div class="col-3" data-aos="fade-up">
+					<div class="col-6 col-md-3" data-aos="fade-up">
 						<img src="../assets/img/Wij6.webp" />
 					</div>
-					<div class="col-3" data-aos="fade-up">
+					<div class="col-6 col-md-3" data-aos="fade-up">
 						<img src="../assets/img/Wij7.webp" />
 					</div>
-					<div class="col-3" data-aos="fade-up">
+					<div class="col-6 col-md-3" data-aos="fade-up">
 						<img src="../assets/img/Wij8.webp" />
 					</div>
 				</div>
@@ -153,21 +165,21 @@ onMounted(() => {
 			<div class="container">
 				<h2>Welke reacties wij nu al krijgen</h2>
 				<div class="row">
-					<div class="col-4">
+					<div class="col-md-4">
 						<div class="react left" data-aos="fade-right">
 							<p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.”</p>
 							<div>Deena Levies,<br />Mission Bay</div>
 							<img src="../assets/img/welke1.svg" />
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-md-4">
 						<div class="react center" data-aos="fade-up">
 							<p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.”</p>
 							<div>Tom Smithenson, <br />Parkmerced</div>
 							<img src="../assets/img/welke2.svg" />
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-md-4">
 						<div class="react end" data-aos="fade-left">
 							<p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.”</p>
 							<div>Tilly Green, <br />Hayes Valley</div>
@@ -181,12 +193,12 @@ onMounted(() => {
 		<section class="kostHet">
 			<div class="container">
 				<div class="row">
-					<div class="col-7 left" data-aos="fade-right">
+					<div class="col-md-7 left" data-aos="fade-right">
 						<h2>Wat kost het</h2>
 						<p>Wij rekenen in studiejaar licenties op basis van het aantal studenten die gebruik gaan maken van de tool. Wij bieden op dit moment twee opties, een gratis optie en een betaalde optie.</p>
 						<button class="btn btn-primary">Bekijk Prijzen</button>
 					</div>
-					<div class="col-5" data-aos="fade-left">
+					<div class="col-md-5 mt-5 mt-md-0" data-aos="fade-left">
 						<div class="priceBox">
 							<div class="name">Voordeligst</div>
 							<div class="top">
@@ -239,10 +251,15 @@ section {
 			margin-top: 15px;
 		}
 	}
+	@media only screen and (max-width: 1650px) {
+		.minusLeft {
+			margin-left: 0;
+		}
+	}
 }
 .banner {
 	padding: 60px 0 80px 0;
-	.col-6 {
+	.col-md-6 {
 		padding-top: 70px;
 		padding-bottom: 70px;
 	}
@@ -257,15 +274,18 @@ section {
 	.imgDiv {
 		position: relative;
 		.bannerImg {
-			position: absolute;
-			right: -60px;
-			width: 100%;
-			height: 100%;
-			text-align: end;
-			top: 50px;
 			img {
+				width: 500px;
 				height: 100%;
 				max-width: 100%;
+				margin-right: -50px;
+			}
+		}
+		@media only screen and (max-width: 1650px) {
+			.bannerImg {
+				img {
+					margin-right: -0;
+				}
 			}
 		}
 	}
@@ -275,7 +295,7 @@ section {
 	height: 92px;
 	position: absolute;
 	width: 100%;
-	top: 0;
+	top: -1px;
 	transform: rotate(180deg);
 }
 
@@ -311,6 +331,11 @@ section {
 		}
 		p {
 			max-width: 240px;
+		}
+		@media only screen and (max-width: 767px) {
+			p {
+				margin: auto;
+			}
 		}
 	}
 	.exLong {
@@ -367,6 +392,7 @@ section {
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		width: 280px;
+		max-width: 100%;
 		height: 400px;
 		padding: 30px;
 		margin-top: 50px;
@@ -384,6 +410,11 @@ section {
 			bottom: -5px;
 		}
 	}
+	@media only screen and (max-width: 870px) {
+		.react {
+			height: 450px;
+		}
+	}
 
 	.center {
 		margin: 50px auto 0;
@@ -399,6 +430,14 @@ section {
 			left: -35px;
 			bottom: -31px;
 			width: 135px;
+		}
+	}
+	@media only screen and (max-width: 767px) {
+		.left {
+			margin: 50px auto 0;
+		}
+		.end {
+			margin: 50px auto 0;
 		}
 	}
 }
