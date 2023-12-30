@@ -67,6 +67,7 @@ footer {
 		max-width: 1523px;
 	}
 	a {
+		display: inline-block;
 		color: #004aad;
 	}
 	h5 {
@@ -94,12 +95,15 @@ footer {
 			outline: none !important;
 		}
 		button {
+			transform: 0.3s all;
+			background: #004aad;
 			width: 40%;
 			border-radius: 0px 5px 5px 0px;
 			color: #fff;
 			padding: 5px;
 			border: 2px solid #004aad;
 			&:hover {
+				background: transparent;
 				color: #004aad;
 			}
 		}
