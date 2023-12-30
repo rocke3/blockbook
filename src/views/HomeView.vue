@@ -9,105 +9,104 @@ onMounted(() => {
 <template>
 	<div>
 		<section class="banner">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6 imgDiv order-lg-2" data-aos="fade-left">
+			<v-container>
+				<v-row>
+					<v-col sm="12" md="6" class="imgDiv order-lg-2" data-aos="fade-left">
 						<div class="bannerImg text-center text-lg-end">
 							<img src="../assets/img/bg1.svg" />
 						</div>
-					</div>
-
-					<div class="col-lg-6 order-lg-1" data-aos="fade-right">
+					</v-col>
+					<v-col md="6" class="order-lg-1" data-aos="fade-right">
 						<div class="pb-2">
 							<h1 class="mb-4">Upload.<br />Genereer. Bespaar.</h1>
 							<p class="sub">Bespaar tijd met een AI tool gebouwd <br />voor docenten.</p>
 							<a class="btn btn-primary" href="">Plan enn Demo</a>
 						</div>
-						<div class="row minusLeft">
-							<div class="col">
+						<v-row class="mt-4">
+							<v-col>
 								<div class="d-flex">
 									<img src="../assets/img/Nakijken.svg" width="55" class="me-2" />
 									<p>Nakijken &<br />Feedback geven</p>
 								</div>
-							</div>
-							<div class="col">
+							</v-col>
+							<v-col>
 								<div class="d-flex">
 									<img src="../assets/img/Casussen.svg" width="55" class="me-2" />
 									<p>Casussen <br />ontwikkelen</p>
 								</div>
-							</div>
-							<div class="col">
+							</v-col>
+							<v-col>
 								<div class="d-flex">
 									<img src="../assets/img/Oefentoetsen.svg" width="55" class="me-2" />
 									<p>Oefentoetsen en <br />tentamenvragen</p>
 								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+							</v-col>
+						</v-row>
+					</v-col>
+				</v-row>
+			</v-container>
 		</section>
 
 		<section class="geloven">
 			<div class="divider"></div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6" data-aos="fade-right">
+			<v-container>
+				<v-row>
+					<v-col class="col-md-6" data-aos="fade-right">
 						<h2>Wij geloven in technologie & innovatie voor het onderwijs!</h2>
-					</div>
-					<div class="col-md-6" data-aos="fade-left">
+					</v-col>
+					<v-col class="col-md-6" data-aos="fade-left">
 						<p>Nieuwe technologieën hebben een steeds grotere impact op het onderwijs. Wij zijn er om de nieuwe technologieën toegankelijk te maken voor docenten en studenten. Daarmee geloven wij in beter onderwijs.</p>
-					</div>
-				</div>
-			</div>
+					</v-col>
+				</v-row>
+			</v-container>
 		</section>
 
 		<section class="watWij" id="product">
-			<div class="container">
+			<v-container>
 				<div data-aos="zoom-in">
 					<h2>Wat wij doen</h2>
 					<p>Wij zetten AI in om een docent te ondersteunen bij het ontwikkelen van oefenvragen, casussen, nakijken, feedback geven en het bijhouden van resultaten van studenten.</p>
-					<button class="btn btn-outline-primary">Plan enn Demo</button>
+					<button class="btn btn-outline-primary mt-4">Plan enn Demo</button>
 				</div>
-				<div class="row text-center text-md-start">
-					<div class="col-md-6 col-lg-3">
+				<v-row class="row text-center text-md-start">
+					<v-col class="col-md-6 col-lg-3">
 						<div class="watItem" data-aos="fade-up">
 							<img src="../assets/img/Wat1.webp" />
 							<h3>Upload <br />lesmateriaal</h3>
 							<p>Upload het lesmateriaal voor jouw vak en maak hiermee een leeromgeving. Je kan PowerPoints, PDFs, beoordelingsformulieren, oude toetsen en andere tekstbestanden uploaden om de leeromgeving van jouw vak te maken.</p>
 						</div>
-					</div>
-					<div class="col-md-6 col-lg-3">
+					</v-col>
+					<v-col class="col-md-6 col-lg-3">
 						<div class="watItem" data-aos="fade-up">
 							<img src="../assets/img/Wat2.webp" />
 							<h3>Geautomatiseerde <br />digitale leeromgeving</h3>
 							<p>Na het uploaden van het leermateriaal maken wij in 10 min een digitale leeromgeving. Pas hierin aan wat aangepast moet worden en publiceer de digitale leeromgeving met oefenmateriaal naar studenten.</p>
 						</div>
-					</div>
-					<div class="col-md-6 col-lg-3">
+					</v-col>
+					<v-col class="col-md-6 col-lg-3">
 						<div class="watItem" data-aos="fade-up">
 							<img src="../assets/img/Wat3.webp" />
 							<h3>Maak sneller content <br />voor student</h3>
 							<p>Genereer geautomatiseerd oefencontent voor studenten. Studenten kunnen oefentoetsen vinden die passen bij hun leerdoelen en gepersonaliseerd op hun leerproces.</p>
 						</div>
-					</div>
-					<div class="col-md-6 col-lg-3">
+					</v-col>
+					<v-col class="col-md-6 col-lg-3">
 						<div class="watItem" data-aos="fade-up">
 							<img src="../assets/img/Wat4.webp" />
 							<h3>Geef feedback in <br />een handomdraai</h3>
 							<p>Laat de nakijktool de tussentijdse formatieve opdrachten nakijken en studenten voorzien met feedback op basis van de leerdoelen en een beoordelingsformulier.</p>
 						</div>
-					</div>
-				</div>
+					</v-col>
+				</v-row>
 				<div class="text-center mb-5 mt-4" data-aos="zoom-in">
 					<button class="btn btn-outline-primary exLong">Leer meer over ons product</button>
 				</div>
 
-				<div class="row voorHet">
-					<div class="col-lg-6" data-aos="fade-up">
+				<v-row class="row voorHet">
+					<v-col class="col-lg-6" data-aos="fade-up">
 						<img class="leftImg" src="../assets/img/bg2.png" />
-					</div>
-					<div class="col-lg-6">
+					</v-col>
+					<v-col class="col-lg-6">
 						<div class="rightContent" data-aos="fade-up">
 							<h2>Voor het onderwijs, <br />door studenten</h2>
 							<p>Blockbook is ontstaan omdat twee studenten geloven dat nieuwe technologieën meer gebruikt moeten worden in het onderwijs. Met Blockbook worden nieuwe technologieën toegankelijk gemaakt in het onderwijs.</p>
@@ -120,85 +119,85 @@ onMounted(() => {
 								<p>Gemaakt voor <br />het onderwijs</p>
 							</div>
 						</div>
-					</div>
-				</div>
-			</div>
+					</v-col>
+				</v-row>
+			</v-container>
 		</section>
 
 		<section class="werken">
 			<div class="divider"></div>
-			<div class="container">
+			<v-container>
 				<div data-aos="zoom-in">
 					<h2>Wij werken samen met</h2>
 					<p>Deze partners helpen ons op onze missie om technologie toegankelijk te maken in het onderwijs. Geloof jij ook in de kracht van technologie en help jij ons ook?</p>
 				</div>
-				<div class="row text-center">
-					<div class="col-6 col-md-3" data-aos="fade-up">
+				<v-row class="row text-center">
+					<v-col sm="3" data-aos="fade-up">
 						<img src="../assets/img/Wij1.webp" />
-					</div>
-					<div class="col-6 col-md-3" data-aos="fade-up">
+					</v-col>
+					<v-col sm="3" data-aos="fade-up">
 						<img src="../assets/img/Wij2.webp" />
-					</div>
-					<div class="col-6 col-md-3" data-aos="fade-up">
+					</v-col>
+					<v-col sm="3" data-aos="fade-up">
 						<img src="../assets/img/Wij3.webp" />
-					</div>
-					<div class="col-6 col-md-3" data-aos="fade-up">
+					</v-col>
+					<v-col sm="3" data-aos="fade-up">
 						<img src="../assets/img/Wij4.webp" />
-					</div>
-					<div class="col-6 col-md-3" data-aos="fade-up">
+					</v-col>
+					<v-col sm="3" data-aos="fade-up">
 						<img src="../assets/img/Wij5.webp" />
-					</div>
-					<div class="col-6 col-md-3" data-aos="fade-up">
+					</v-col>
+					<v-col sm="3" data-aos="fade-up">
 						<img src="../assets/img/Wij6.webp" />
-					</div>
-					<div class="col-6 col-md-3" data-aos="fade-up">
+					</v-col>
+					<v-col sm="3" data-aos="fade-up">
 						<img src="../assets/img/Wij7.webp" />
-					</div>
-					<div class="col-6 col-md-3" data-aos="fade-up">
+					</v-col>
+					<v-col sm="3" data-aos="fade-up">
 						<img src="../assets/img/Wij8.webp" />
-					</div>
-				</div>
-			</div>
+					</v-col>
+				</v-row>
+			</v-container>
 		</section>
 
 		<section class="reacties">
-			<div class="container">
+			<v-container>
 				<h2>Welke reacties wij nu al krijgen</h2>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="react left" data-aos="fade-right">
+				<v-row>
+					<v-col class="col-md-4">
+						<div class="react center" data-aos="fade-right">
 							<p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.”</p>
 							<div>Deena Levies,<br />Mission Bay</div>
 							<img src="../assets/img/welke1.svg" />
 						</div>
-					</div>
-					<div class="col-md-4">
+					</v-col>
+					<v-col class="col-md-4">
 						<div class="react center" data-aos="fade-up">
 							<p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.”</p>
 							<div>Tom Smithenson, <br />Parkmerced</div>
 							<img src="../assets/img/welke2.svg" />
 						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="react end" data-aos="fade-left">
+					</v-col>
+					<v-col class="col-md-4">
+						<div class="react center" data-aos="fade-left">
 							<p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services. Let your customers review you and tell their friends how great you are.”</p>
 							<div>Tilly Green, <br />Hayes Valley</div>
 							<img src="../assets/img/welke3.svg" />
 						</div>
-					</div>
-				</div>
-			</div>
+					</v-col>
+				</v-row>
+			</v-container>
 		</section>
 
 		<section class="kostHet">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-7 left" data-aos="fade-right">
+			<v-container>
+				<v-row>
+					<v-col class="col-md-7 left" data-aos="fade-right">
 						<h2>Wat kost het</h2>
 						<p>Wij rekenen in studiejaar licenties op basis van het aantal studenten die gebruik gaan maken van de tool. Wij bieden op dit moment twee opties, een gratis optie en een betaalde optie.</p>
 						<button class="btn btn-primary">Bekijk Prijzen</button>
-					</div>
-					<div class="col-md-5 mt-5 mt-md-0" data-aos="fade-left">
+					</v-col>
+					<v-col class="col-md-5 mt-5 mt-md-0" data-aos="fade-left">
 						<div class="priceBox">
 							<div class="name">Voordeligst</div>
 							<div class="top">
@@ -218,26 +217,96 @@ onMounted(() => {
 								<p class="m-0"><img src="../assets/img/check.svg" /> I'm a benefit</p>
 							</div>
 						</div>
-					</div>
-				</div>
-			</div>
+					</v-col>
+				</v-row>
+			</v-container>
 			<div class="divider"></div>
 		</section>
 
 		<section class="jouw">
-			<div class="container">
+			<v-container>
 				<h2 class="mb-4" data-aos="fade-up">Maximaliseer jouw productiviteit en geef <br />beter onderwijs!</h2>
 				<button class="btn btn-outline-primary" data-aos="fade-up">Boek een Demo</button>
 				<div class="img" data-aos="fade-up">
 					<img src="../assets/img/bg3.svg" />
 				</div>
-			</div>
+			</v-container>
 		</section>
 	</div>
 </template>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+html {
+	overflow-x: hidden;
+	body {
+		font-family: "Mulish", sans-serif;
+		color: #004aad;
+		font-size: 16px;
+		p {
+			color: #004aad;
+		}
+	}
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.btn {
+	font-family: "Space Grotesk", sans-serif !important;
+	font-weight: 400;
+}
+h2 {
+	font-size: 38px;
+}
+.btn {
+	padding: 10px 16px;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 600;
+	transition: 0.3s all;
+	border-radius: 5px;
+}
+.v-container {
+	max-width: 1523px;
+}
+.btn-primary {
+	background: #004aad;
+	color: #fff;
+	&:active,
+	&:hover,
+	&:focus {
+		background: #ffb64f;
+		color: #004aad;
+	}
+}
+.btn-outline-primary {
+	background: #ffb64f;
+	color: #004aad;
+	border: 1px solid #004aad;
+	&:active,
+	&:hover,
+	&:focus {
+		color: #ffb64f;
+		background: #004aad;
+	}
+}
+
+.btn-white {
+	background: #fff;
+	color: #004aad;
+	transition: 0.3s all;
+}
+.btn-white:hover {
+	opacity: 0.5;
+	color: #004aad;
+	background: #fff;
+}
+
 section {
+	color: #004aad;
 	padding: 120px 0;
 	position: relative;
 	.container {
@@ -422,22 +491,6 @@ section {
 			left: -35px;
 			bottom: -40px;
 			width: 135px;
-		}
-	}
-	.end {
-		margin: 50px 0 0 auto;
-		img {
-			left: -35px;
-			bottom: -31px;
-			width: 135px;
-		}
-	}
-	@media only screen and (max-width: 767px) {
-		.left {
-			margin: 50px auto 0;
-		}
-		.end {
-			margin: 50px auto 0;
 		}
 	}
 }

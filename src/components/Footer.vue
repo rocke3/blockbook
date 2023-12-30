@@ -2,7 +2,7 @@
 
 <template>
 	<footer id="contact">
-		<div class="container">
+		<v-container>
 			<a class="navbar-brand d-flex" href="#">
 				<img src="../assets/img/logo.svg" alt="blockbook" width="42" />
 				<div class="ms-2">
@@ -11,21 +11,21 @@
 				</div>
 			</a>
 			<div class="mt-4 ps-5">
-				<div class="row">
-					<div class="col-sm-8 col-xl-5">
+				<v-row>
+					<v-col md="5">
 						<h5>Contact</h5>
-						<div class="row">
-							<div class="col">
+						<v-row class="row">
+							<v-col class="col">
 								<p>500 Terry Francine Street San Francisco, CA 94158</p>
-								<p>General Inquiries: 123-456-7890</p>
-							</div>
-							<div class="col">
+								<p class="mt-5">General Inquiries: 123-456-7890</p>
+							</v-col>
+							<v-col class="col">
 								<p>Sales: <br />info@mysite.com</p>
-								<p>Customer Care: <br />info@mysite.com</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4 col-xl-2">
+								<p class="mt-5">Customer Care: <br />info@mysite.com</p>
+							</v-col>
+						</v-row>
+					</v-col>
+					<v-col class="col-sm-4 col-xl-2">
 						<h5>Quick Links</h5>
 						<p>
 							<a href="https://jeroenvangessel.wixsite.com/blockbook-1/terms-conditions">Terms & Conditions</a>
@@ -33,43 +33,49 @@
 						<p>
 							<a href="https://jeroenvangessel.wixsite.com/blockbook-1/privacy-policy">Privacy Policy</a>
 						</p>
-					</div>
-					<div class="col-sm-8 col-xl-3">
+					</v-col>
+					<v-col class="col-sm-8 col-xl-3">
 						<h5>Follow</h5>
 						<p>Sign up to get the latest news on our product.</p>
 						<label>Email *</label>
 						<form method="post" action="">
 							<div class="input-group mb-3">
 								<input type="text" class="form-control" />
-								<span class="input-group-text">Subscribe</span>
+								<button class="btn btn-primary">Subscribe</button>
 							</div>
 						</form>
-					</div>
-					<div class="col-sm-4 col-xl-2 social">
+					</v-col>
+					<v-col class="col-sm-4 col-xl-2 social">
 						<h5><a href="">LinkedIn</a></h5>
 						<h5><a href="">YouTube</a></h5>
 						<h5><a href="">Facebook</a></h5>
-					</div>
-				</div>
+					</v-col>
+				</v-row>
 			</div>
-		</div>
+		</v-container>
 	</footer>
 </template>
 
 <style scoped>
 footer {
+	color: #004aad;
 	background: #ffb64f;
 	padding-top: 120px;
 	padding-bottom: 80px;
 	margin-top: -33px;
+	.v-container {
+		max-width: 1523px;
+	}
 	a {
 		color: #004aad;
 	}
 	h5 {
 		margin-top: 20px;
 		margin-bottom: 30px;
-		font-weight: 600 !important;
+		font-weight: 600;
+		font-size: 20px;
 	}
+
 	.navbar-brand {
 		.title {
 			font-weight: 600;
@@ -80,13 +86,32 @@ footer {
 			font-size: 14px;
 		}
 	}
-	.form-control {
-		background: transparent;
-		border: 2px solid #004aad;
-		&:hover {
-			background: #fff;
+	.input-group {
+		input {
+			width: 60%;
+			border-radius: 5px 0px 0px 5px;
+			padding: 5px;
+			outline: none !important;
+		}
+		button {
+			width: 40%;
+			border-radius: 0px 5px 5px 0px;
+			color: #fff;
+			padding: 5px;
+			border: 2px solid #004aad;
+			&:hover {
+				color: #004aad;
+			}
+		}
+		.form-control {
+			background: transparent;
+			border: 2px solid #004aad;
+			&:hover {
+				background: #fff;
+			}
 		}
 	}
+
 	.input-group-text {
 		background: #004aad;
 		color: #fff;
