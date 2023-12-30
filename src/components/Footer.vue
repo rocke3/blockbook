@@ -67,7 +67,7 @@ footer {
 		max-width: 1523px;
 	}
 	a {
-		display: inline-block;
+		text-decoration: none;
 		color: #004aad;
 	}
 	h5 {
